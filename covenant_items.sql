@@ -10,4 +10,7 @@ AgentCommission DECIMAL(11,2) NULL,
 PRIMARY KEY (cov_item)
 );
 
+INSERT INTO cov_items(AdditionalInsured_Multi_Count, AdditionalInsured_Multi_IndexList, AdmittedRisk);
+VALUES(0, 1, 'Yes');
+
 SELECT * FROM cov_items;
